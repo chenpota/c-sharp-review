@@ -59,10 +59,6 @@ public class Translator
 }
 ```
 
-The [article]() shows APM, EPM, and TAP implementations using **wait-until-done** manner.  
-The [article]() shows APM and TAP implementations using **polling** manner.  
-The [article]() shows APM, EPM, and TAP implementations using **callback** manner.
-
 ------------------------------
 
 # Complete Source Code
