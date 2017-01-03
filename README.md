@@ -1,4 +1,4 @@
-# c-sharp-review
+# C# review
 
 Refer to https://github.com/chenpota/c-sharp
 
