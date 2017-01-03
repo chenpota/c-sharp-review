@@ -47,14 +47,14 @@ class Program
     {
         Translator translator = new Translator();
 
-		Task<string> task = translator.IntToStringAsync(2);
+        Task<string> task = translator.IntToStringAsync(2);
 
-		while(task.IsCompleted==false)
-		{
-			// do something
-		}
+        while(task.IsCompleted==false)
+        {
+            // do something
+        }
 
-		Console.WriteLine("polling: " + task.Result);
+        Console.WriteLine("polling: " + task.Result);
     }
 }
 ```
