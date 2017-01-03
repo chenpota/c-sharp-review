@@ -1,6 +1,6 @@
 # C# review
 
-Refer to https://github.com/chenpota/c-sharp
+GitHub: https://github.com/chenpota/c-sharp
 
 * [Introduction](README.md)
 * Asynchronous Programming Patterns
