@@ -12,16 +12,16 @@ public class Translator
 
 class Program
 {
-	static void Main(string[] args)
-	{
-		Translator translator = new Translator();
+    static void Main(string[] args)
+    {
+        Translator translator = new Translator();
 
-		IAsyncResult ar = translator.BeginIntToString(1, null);
+        IAsyncResult ar = translator.BeginIntToString(1, null);
 
-		string result = translator.EndIntToString(ar);
+        string result = translator.EndIntToString(ar);
 
-		Console.WriteLine("wait-until-done: " + result);
-	}
+        Console.WriteLine("wait-until-done: " + result);
+    }
 }
 ```
 
